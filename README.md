@@ -2,27 +2,61 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# care-q 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Pookie
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Farsana P N - Ilahia college of engineering and technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://care-q.vercel.app/home
 
 ### Project Description
-[2-3 lines about what your project does]
+QueueCare is a patient-centric hospital portal designed to reduce long waiting times and confusion in hospital outpatient departments (OPD). The system allows patients to view their token number, the current token being served, and the estimated waiting time using a fixed average consultation time per patient.
+
+The portal also intelligently handles situations where a patient misses their token by automatically assigning a new optimized time slot. This helps patients arrive at the hospital at the right time, reduces overcrowding, and improves overall patient experience. The system is simple, user-friendly, and suitable for government and private hospitals.
+
+
 
 ### The Problem statement
-[What problem are you solving?]
+In many hospitals, especially in India, patient management is still done using manual or semi-digital token systems. Patients face several problems such as:
+
+Long and uncertain waiting times
+
+No information about the current token number
+
+Patients arriving too early or missing their turn
+
+Overcrowding in OPD areas
+
+Stress for elderly and sick patients
 
 ### The Solution
-[How are you solving it?]
+QueueCare provides a digital patient portal that displays real-time token information and calculates waiting time using a fixed average consultation time per patient.
+
+Key Features of the Solution:
+Patient logs in using a mobile number
+
+Displays:
+
+Current token being served
+
+Patient’s token number
+
+Average time per patient
+
+Estimated waiting time
+
+Automatically detects if a token is missed
+
+Generates a new optimal time slot for missed patients
+
+Notifies patients through SMS or WhatsApp
+
+By giving patients clear time information and automatic rescheduling, the system reduces waiting, confusion, and overcrowding.
 
 ---
 
@@ -31,10 +65,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: Typescript
+- Frameworks used: NextJS
+- Libraries used: axios
+- Tools used: VS Code
 
 **For Hardware:**
 - Main components: [List main components]
@@ -45,11 +79,18 @@
 
 ## Features
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+1) List the key features of your project:
+Patient Login Using Mobile Number
+
+Simple and secure login for patients
+
+No complex registration process
+
+2) Token Information Display
+
+Shows the patient’s token number
+
+Displays the current token being served
 
 ---
 
@@ -83,14 +124,22 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+### Department Selection
+![Department Selection](./screenshots/department-selection.png)
+Users can browse all available hospital departments, see live queue counts, number of doctors, and estimated waiting times. Patients can either join a queue directly or view more details before proceeding.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+### Doctors / Specialists List
+![Doctors List](./screenshots/doctors-list.png)
+After selecting a department, patients can view the list of available doctors along with their specialization, ratings, current token, next token, and expected waiting time. Appointments can be booked from this page.
+
+### Book Appointment
+![Book Appointment](./screenshots/booking-form.png)
+Patients enter their personal details, contact information, and preferred date/time. The system displays the consultation fee and validates the information before confirming the booking.
+
+### Appointment Confirmation
+![Appointment Confirmation](./screenshots/confirmation.png)
+Once the booking is successful, a token number is generated. Patients receive appointment details including doctor name, visit time, and instructions on when to arrive.
 
 #### Diagrams
 
