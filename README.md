@@ -126,7 +126,7 @@ Displays the current token being served
 
 
 ### Department Selection
-![Department Selection](./screenshots/department-selection.png)
+<p align="center"> <img src="./screenshots/department-selection.png" alt="Department Selection" width="100%"> </p>
 Users can browse all available hospital departments, see live queue counts, number of doctors, and estimated waiting times. Patients can either join a queue directly or view more details before proceeding.
 
 ### Doctors / Specialists List
