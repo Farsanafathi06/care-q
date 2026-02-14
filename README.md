@@ -122,7 +122,8 @@ Displays the current token being served
 
 ### For Software:
 
-#### Screenshots (Add at least 3)
+#### Screenshots
+
 
 
 ### Department Selection
