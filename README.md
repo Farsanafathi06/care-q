@@ -127,19 +127,19 @@ Displays the current token being served
 
 
 ### Department Selection
-![Department Selection](./screenshots/department-selection.png)
+![Department Selection](./1.png)
 Users can browse all available hospital departments, see live queue counts, number of doctors, and estimated waiting times. Patients can either join a queue directly or view more details before proceeding.
 
 ### Doctors / Specialists List
-![Doctors List](./screenshots/doctors-list.png)
+![Doctors List](./3.png)
 After selecting a department, patients can view the list of available doctors along with their specialization, ratings, current token, next token, and expected waiting time. Appointments can be booked from this page.
 
 ### Book Appointment
-![Book Appointment](./screenshots/booking-form.png)
+![Book Appointment](./2.png)
 Patients enter their personal details, contact information, and preferred date/time. The system displays the consultation fee and validates the information before confirming the booking.
 
 ### Appointment Confirmation
-![Appointment Confirmation](./screenshots/confirmation.png)
+![Appointment Confirmation](./4.png)
 Once the booking is successful, a token number is generated. Patients receive appointment details including doctor name, visit time, and instructions on when to arrive.
 
 #### Diagrams
